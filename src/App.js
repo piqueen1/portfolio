@@ -8,10 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Whirlygig Derby</h1>
+          <h1 className="App-title">Finnian Rhapsody</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Oh <strong>Time</strong>, Thou must untangle this, not I <br />For 'tis too hard a knot for <strong>me</strong> t'untie.
         </p>
       </div>
     );
