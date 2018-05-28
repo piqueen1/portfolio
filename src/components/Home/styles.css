@@ -3,27 +3,123 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 100%;
   width: 100%;
 }
 
-.nav {
+.banner {
   display: flex;
-  justify-content: flex-end;
-  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/images/Thoughtful-Eyes.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-size: cover;
+  height: 100vh;
   width: 100%;
-  background: #0b4176;
-  height: 60px;
-  color: #fff;
-  top: 0;
 }
 
-.nav a{
-  color: #fff;
-  margin: 20px;
-  line-height: 3.5em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 400; 
-  text-decoration: none;
+.logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.individual-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies-blurbs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-blurb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
