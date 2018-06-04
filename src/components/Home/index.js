@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './styles.css';
+import Tumnus from '../../assets/images/Tumnus.jpg';
+import Unicorn from '../../assets/images/UnicornProject.jpeg';
 
 class Home extends Component {
   render() {
@@ -7,13 +9,16 @@ class Home extends Component {
       <div className="home">
         <div className="banner">
           <div className="logo">
-            <img src="../../assets/images/Tumnus.jpg" alt="Tumnus Grins" height="80px" width="80px" /> 
+            <img src={Tumnus} alt="Tumnus Grins" /> 
           </div>
           <div className="banner-text">
             <span className="header-text">Finn is an insightful, talented developer.</span>
             <span className="sub-header-text">Creative. Flexible. Competent. Friendly.</span>
           </div>
+          <div />
         </div>
+        {/* Intro */}
+        <span className="intro">Lots of fascinating, true, real stuff</span>
         {/* PROJECTS SECTION */}
         <div className="projects">
           <div className="projects-banner">
@@ -26,25 +31,25 @@ class Home extends Component {
           <div className="projects-row">
             {/* PROJECT */}
             <a className="individual-project" href="">
-              <img src="" alt="" />
-              <span className="project-name"></span>
+              <img src={Unicorn} alt="Unicorn Game" />
+              <span className="project-name">A children's game about raising a baby unicorn</span>
             </a>
             {/* PROJECT */}
             <a className="individual-project" href="">
-              <img src="" alt="" />
-              <span className="project-name"></span>
+              <img src={Unicorn} alt="Unicorn Game" />
+              <span className="project-name">A children's game about raising a baby unicorn</span>
             </a>
           </div>
           <div className="projects-row">
             {/* PROJECT */}
             <a className="individual-project" href="">
-              <img src="" alt="" />
-              <span className="project-name"></span>
+              <img src={Unicorn} alt="Unicorn Game" />
+              <span className="project-name">A children's game about raising a baby unicorn</span>
             </a>
             {/* PROJECT */}
             <a className="individual-project" href="">
-              <img src="" alt="" />
-              <span className="project-name"></span>
+              <img src={Unicorn} alt="Unicorn Game" />
+              <span className="project-name">A children's game about raising a baby unicorn</span>
             </a>
           </div>
         </div>
@@ -83,7 +88,7 @@ class Home extends Component {
           <button>Contact Me</button>
         </div>
         {/* ABOUT SECTION */}
-        <div className="about" id="about">
+        <div className="about">
           <span className="about-text">Lots of fascinating, true, real stuff</span>
           {/* SOUND FILE */ }
         </div>
