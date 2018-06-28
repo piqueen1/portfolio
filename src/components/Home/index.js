@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './styles.css';
 import Tumnus from '../../assets/images/Tumnus.jpg';
 import Unicorn from '../../assets/images/UnicornProject.jpeg';
+import CSSLogo from '../../assets/images/CSSlogo.jpg';
+import JavascriptLogo from '../../assets/images/LoveJavascript.jpeg';
+import ReactLogo from '../../assets/images/logo.svg';
+import HTMLLogo from '../../assets/images/HTMLLogo.jpeg';
 
 class Home extends Component {
   render() {
@@ -56,24 +60,24 @@ class Home extends Component {
         {/* TECHNOLOGIES SECTION */}
         <div className="technologies">
           <div className="technologies-banner">
-            <span className="technologies-header"></span>
-            <span className="technologies-subtitle"></span>
+            <span className="technologies-header">Technologies I Use</span>
+            <span className="technologies-subtitle">**The Important Stuff**</span>
           </div>
-          <div className="technology-blurbs">
+          <div className="technologies-blurbs">
             {/* TECH BLURB */}
             <div className="tech-blurb">
-              <span className="tech-blurb-text">Javascript ninjahood</span>
-              <img src="" alt="" />
+              <img src={JavascriptLogo} alt="Javascript Logo" />
+              <span className="tech-blurb-text">Ninjahood</span>
             </div>
             {/* TECH BLURB */}
             <div className="tech-blurb">
-              <span className="tech-blurb-text">HTML mastery</span>
-              <img src="" alt="" />
+              <img src={HTMLLogo} alt="HTML Logo" />
+              <span className="tech-blurb-text">Eloquence</span>
             </div>
             {/* TECH BLURB */}
             <div className="tech-blurb">
-              <span className="tech-blurb-text">CSS eloquence</span>
-              <img src="" alt="" />
+              <img src={CSSLogo} alt="CSS Logo" />
+              <span className="tech-blurb-text">Mastery</span>
             </div>
           </div>
         </div>
