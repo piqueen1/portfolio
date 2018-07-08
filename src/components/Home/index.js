@@ -16,13 +16,12 @@ class Home extends Component {
             <img src={Tumnus} alt="Tumnus Grins" /> 
           </div>
           <div className="banner-text">
-            <span className="header-text">Finn is an insightful, talented developer.</span>
-            <span className="sub-header-text">Creative. Flexible. Competent. Friendly.</span>
+            <span className="header-text">Looking for a skilled, fast, flexible web developer?</span>
+            <span className="sub-header-text">Good news: you've found her.</span>
           </div>
-          <div />
         </div>
         {/* Intro */}
-        <span className="intro">Lots of fascinating, true, real stuff</span>
+        <span className="intro">I'm Finn, and I'm the one you're looking for.</span>
         {/* PROJECTS SECTION */}
         <div className="projects">
           <div className="projects-banner">
@@ -86,19 +85,22 @@ class Home extends Component {
           <span className="temp-blog-section-text">Big Beautiful Brilliant Blog</span>
           <span className="temp-glog-section-subtext">An edifying read</span>
         </div>
-        {/* ADVERTISEMENT OF ME SECTION: PHOTO OF OFF THE WALL */}
-        <div className="contact">
-          <span className="contact-text">Great Stars but how wonderful that you have found me!</span>
-          <button>Contact Me</button>
-        </div>
-        {/* ABOUT SECTION */}
-        <div className="about">
-          <span className="about-text">Lots of fascinating, true, real stuff</span>
-          {/* SOUND FILE */ }
+        {/* ADVERTISEMENT (ABOUT & CONTACT SECTION): PHOTO OF OFF THE WALL */}
+        <div classname="advertisement">
+          <div className="about">
+            <span className="about-text">Lots of fascinating, true, real stuff</span>
+            {/* SOUND FILE */}
+          </div>
+          <div className="contact">
+            <span className="contact-text">Great Stars but how wonderful that you have found me!</span>
+            <button>Contact Me</button>
+          </div>
         </div>
         {/* FOOTER SECTION */}
         <div className="footer">
-          <span className="byline">Copyright 2018 <span className="my-name">Finn Thye</span> All Rights Reserved.</span>
+          <span className="byline">Copyright 2018 </span>
+          <span className="my-name">Finn Thye</span>
+          <span classname="byline">All Rights Reserved.</span>
           <img src="" alt="" />
         </div>
       </div>

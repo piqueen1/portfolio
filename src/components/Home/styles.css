@@ -30,13 +30,16 @@
 .logo img {
     max-height: 80px;
     border-radius: 30%;
+    position: fixed;
 }
 
 .banner-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  font-size: 40px;
+  color: white;
 }
 
 .intro {
@@ -45,6 +48,7 @@
   align-items: center;
   justify-content: center;
 
+  font-size: 40px;
   background: #EAEAEA;
   width: 100%;
   height: 300px;
@@ -160,6 +164,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  background: #4B0082;
+  color: white;
+  width: 100%;
+  height: 300px;
+}
+
+.advertisement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  /* make this a picture */
+  max-width: 100%;
+  height: 600px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: grey;
+  width: 100%;
+  height: 400px;
 }
 
 .contact {
@@ -167,18 +198,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  background: grey;
+  width: 100%;
+  height: 200px;
 }
 
-.about {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
 
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: grey;
+  width: 100%;
+  height: 100px;
 }
