@@ -3,9 +3,10 @@ import './styles.css';
 import Tumnus from '../../assets/images/Tumnus.jpg';
 import Unicorn from '../../assets/images/UnicornProject.jpeg';
 import CSSLogo from '../../assets/images/CSSlogo.jpg';
-import JavascriptLogo from '../../assets/images/LoveJavascript.jpeg';
-import ReactLogo from '../../assets/images/logo.svg';
+import JavascriptLogo from '../../assets/images/JavascriptLogo.png';
 import HTMLLogo from '../../assets/images/HTMLLogo.jpeg';
+import ReactLogo from '../../assets/images/ReactLogo.png';
+import AngularLogo from '../../assets/images/AngularLogo.png';
 
 class Home extends Component {
   render() {
@@ -58,10 +59,7 @@ class Home extends Component {
         </div>
         {/* TECHNOLOGIES SECTION */}
         <div className="technologies">
-          <div className="technologies-banner">
-            <span className="technologies-header">Technologies I Use</span>
-            <span className="technologies-subtitle">**The Important Stuff**</span>
-          </div>
+          <div className="technologies-banner">Technologies</div>
           <div className="technologies-blurbs">
             {/* TECH BLURB */}
             <div className="tech-blurb">
@@ -80,13 +78,29 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        {/* FRAMEWORKS SECTION */}
+        <div className="frameworks">
+          <div className="frameworks-banner">Frameworks</div>
+          <div className="frameworks-blurbs">
+            {/* FRAMEWORK BLURB */}
+            <div className="tech-blurb">
+              <img src={ReactLogo} alt="React Logo" />
+              <span className="tech-blurb-text">Expertise</span>
+            </div>
+            {/* FRAMEWORK BLURB */}
+            <div className="tech-blurb">
+              <img src={AngularLogo} alt="Angular Logo" />
+              <span className="tech-blurb-text">Awesomeness</span>
+            </div>
+          </div>
+        </div>
         {/* BLOG SECTION */}
         <div className="blog">
           <span className="temp-blog-section-text">Big Beautiful Brilliant Blog</span>
           <span className="temp-glog-section-subtext">An edifying read</span>
         </div>
         {/* ADVERTISEMENT (ABOUT & CONTACT SECTION): PHOTO OF OFF THE WALL */}
-        <div classname="advertisement">
+        <div className="advertisement">
           <div className="about">
             <span className="about-text">Lots of fascinating, true, real stuff</span>
             {/* SOUND FILE */}

@@ -29,7 +29,11 @@
 
 .logo img {
     max-height: 80px;
+    border: 50px;
+    border-style: solid;
     border-radius: 30%;
+    border-color: #4B0082;
+    border-width: 5px;
     position: fixed;
 }
 
@@ -37,7 +41,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 40px;
   color: white;
 }
@@ -49,6 +53,7 @@
   justify-content: center;
 
   font-size: 40px;
+  color: #4B0082;
   background: #EAEAEA;
   width: 100%;
   height: 300px;
@@ -125,8 +130,12 @@
   justify-content: center;
 
   background: white;
+  color: #4B0082;
   width: 100%;
   height: 300px;
+  border-bottom: 5px;
+  border-bottom-color: #4B0082;
+  border-bottom-style: dotted;
 }
 
 .technologies-banner {
@@ -137,6 +146,7 @@
 
   width: 100%;
   height: 100px;
+  font-size: 40px;
 }
 
 .technologies-blurbs {
@@ -146,6 +156,7 @@
 
   width: 100%;
   height: 200px;
+  font-size: 20px;
 }
 
 .tech-blurb {
@@ -156,6 +167,50 @@
 }
 
 .tech-blurb img {
+  max-height: 125px;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: white;
+  color: #4B0082;
+  width: 100%;
+  height: 300px;
+}
+
+.frameworks-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 100px;
+  font-size: 40px;
+}
+
+.frameworks-blurbs {
+  display: flex;
+  align-items: space-around;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 200px;
+  font-size: 20px;
+}
+
+.framework-blurb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.framework-blurb img {
   max-height: 125px;
 }
 
@@ -178,7 +233,7 @@
   justify-content: space-around;
 
   /* make this a picture */
-  max-width: 100%;
+  width: 100%;
   height: 600px;
 }
 
@@ -209,7 +264,7 @@
   flex-direction: column;
   align-items: center;
 
-  background-color: grey;
+  background-color: white;
   width: 100%;
   height: 100px;
 }
