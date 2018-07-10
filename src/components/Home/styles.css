@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .banner {
@@ -24,8 +24,7 @@
 
 .top-bar {
   display: flex;
-  justify-content: space-between;
-  height: 100px;
+  align-items: space-between;
   width: 100%;
 }
 
@@ -36,12 +35,7 @@
     border-radius: 30%;
     border-color: #4B0082;
     border-width: 5px;
-    position: fixed;
-}
-
-.menu-burger {
-    max-height: 80px;
-    position: fixed;
+    position: absolute;
 }
 
 .banner-text {
@@ -51,12 +45,8 @@
   justify-content: space-between;
   font-size: 40px;
   color: white;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
-}
-
-.stars {
-  color: gold;
 }
 
 .intro {
@@ -67,9 +57,13 @@
 
   font-size: 40px;
   color: #4B0082;
-  background: #EAEAEA;
+  background: white;
   width: 100%;
-  height: 300px;
+  min-height: 100vh;
+}
+
+.stars {
+  color: gold;
 }
 
 .projects {
@@ -78,10 +72,10 @@
   align-items: center;
   justify-content: space-around;
 
-  background: #4B0082;
+  background: lightgray;
   width: 100%;
-  height: 600px;
-  color: white;
+  min-height: 100vh;
+  color: #4B0082;
 }
 
 .projects-banner {
@@ -145,10 +139,7 @@
   background: white;
   color: #4B0082;
   width: 100%;
-  height: 300px;
-  border-bottom: 5px;
-  border-bottom-color: #4B0082;
-  border-bottom-style: dotted;
+  min-height: 100vh;
 }
 
 .technologies-banner {
@@ -183,62 +174,6 @@
   max-height: 125px;
 }
 
-.frameworks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  background: white;
-  color: #4B0082;
-  width: 100%;
-  height: 300px;
-}
-
-.frameworks-banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-
-  width: 100%;
-  height: 100px;
-  font-size: 40px;
-}
-
-.frameworks-blurbs {
-  display: flex;
-  align-items: space-around;
-  justify-content: space-around;
-
-  width: 100%;
-  height: 200px;
-  font-size: 20px;
-}
-
-.framework-blurb {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.framework-blurb img {
-  max-height: 125px;
-}
-
-.blog {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  background: #4B0082;
-  color: white;
-  width: 100%;
-  height: 300px;
-}
-
 .advertisement {
   display: flex;
   flex-direction: column;
@@ -251,7 +186,7 @@
   background-size: cover;
 
   width: 100%;
-  height: 600px;
+  min-height: 100vh;
 }
 
 .about {

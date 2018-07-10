@@ -6,11 +6,9 @@ import CSSLogo from '../../assets/images/CSSlogo.jpg';
 import JavascriptLogo from '../../assets/images/JavascriptLogo.png';
 import HTMLLogo from '../../assets/images/HTMLLogo.jpeg';
 import ReactLogo from '../../assets/images/ReactLogo.png';
-import AngularLogo from '../../assets/images/AngularLogo.png';
 import LanguageTablet from '../../assets/images/LanguageTablets.jpg';
 import Accounting from '../../assets/images/accounting.png';
 import BabyTraders from '../../assets/images/BabyTraders.jpg';
-import MenuBurger from '../../assets/images/MenuBurger.png';
 
 class Home extends Component {
   render() {
@@ -19,21 +17,18 @@ class Home extends Component {
         <div className="banner">
           <div className="top-bar">
             <img className="logo" src={Tumnus} alt="Tumnus Grins" />
-            <img className="menu-burger" src={MenuBurger} alt="Menu Icon" />
           </div>
           <div className="banner-text">
             <span className="header-text">Looking for a skilled, fast, flexible React developer?</span>
-            {/* Add animated stars: http://bestanimations.com/Signs&Shapes/Stars/gold-star-animation9.gif#.W0NQdmO9XhI.link */}
             <span className="sub-header-text">Good news: you've found her.</span>
-            {/* Add animated stars: http://bestanimations.com/Signs&Shapes/Stars/gold-star-animation9.gif#.W0NQdmO9XhI.link */}
           </div>
         </div>
         {/* Intro */}
         <div className="intro">
           <span>I'm Finn.</span>
-          <span>I'm a linguist and an entrepreneur. </span>
+          <span>I'm a developer, a linguist and an entrepreneur. </span>
           <span className="stars">* * * * * * * * *</span>
-          <span>I design sleek web apps with efficient, eloquent code,</span>
+          <span>I design sleek web apps</span>
           <span>and I'm fun to work with while I do it.</span>
         </div>
         {/* PROJECTS SECTION */}
@@ -77,40 +72,20 @@ class Home extends Component {
             {/* TECH BLURB */}
             <div className="tech-blurb">
               <img src={JavascriptLogo} alt="Javascript Logo" />
-              <span className="tech-blurb-text">Ninjahood</span>
             </div>
             {/* TECH BLURB */}
             <div className="tech-blurb">
               <img src={HTMLLogo} alt="HTML Logo" />
-              <span className="tech-blurb-text">Eloquence</span>
             </div>
             {/* TECH BLURB */}
             <div className="tech-blurb">
               <img src={CSSLogo} alt="CSS Logo" />
-              <span className="tech-blurb-text">Mastery</span>
             </div>
-          </div>
-        </div>
-        {/* FRAMEWORKS SECTION */}
-        <div className="frameworks">
-          <div className="frameworks-banner">Frameworks</div>
-          <div className="frameworks-blurbs">
-            {/* FRAMEWORK BLURB */}
+            {/* TECH BLURB */}
             <div className="tech-blurb">
               <img src={ReactLogo} alt="React Logo" />
-              <span className="tech-blurb-text">Expertise</span>
-            </div>
-            {/* FRAMEWORK BLURB */}
-            <div className="tech-blurb">
-              <img src={AngularLogo} alt="Angular Logo" />
-              <span className="tech-blurb-text">Awesomeness</span>
             </div>
           </div>
-        </div>
-        {/* BLOG SECTION */}
-        <div className="blog">
-          <span className="temp-blog-section-text">Big Beautiful Brilliant Blog</span>
-          <span className="temp-glog-section-subtext">An edifying read</span>
         </div>
         {/* ADVERTISEMENT (ABOUT & CONTACT SECTION): PHOTO OF OFF THE WALL */}
         <div className="advertisement">
