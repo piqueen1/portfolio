@@ -10,7 +10,7 @@
 .banner {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   background-image: url('../../assets/images/Thoughtful-Eyes.jpg');
   background-repeat: no-repeat;
@@ -22,12 +22,14 @@
   width: 100%;
 }
 
-.logo {
+.top-bar {
   display: flex;
+  justify-content: space-between;
+  height: 100px;
   width: 100%;
 }
 
-.logo img {
+.logo {
     max-height: 80px;
     border: 50px;
     border-style: solid;
@@ -37,13 +39,24 @@
     position: fixed;
 }
 
+.menu-burger {
+    max-height: 80px;
+    position: fixed;
+}
+
 .banner-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 40px;
   color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.stars {
+  color: gold;
 }
 
 .intro {
@@ -229,10 +242,14 @@
 .advertisement {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
 
-  /* make this a picture */
+  background: transparent url('../../assets/images/WideOTWArticle.jpg') no-repeat center center fixed;
+  background-color: transparent;
+  background-size: 100% 100%;
+  background-size: cover;
+
   width: 100%;
   height: 600px;
 }
@@ -243,7 +260,6 @@
   align-items: center;
   justify-content: center;
 
-  background: grey;
   width: 100%;
   height: 400px;
 }
@@ -254,7 +270,6 @@
   align-items: center;
   justify-content: center;
 
-  background: grey;
   width: 100%;
   height: 200px;
 }

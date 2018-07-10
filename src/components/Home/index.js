@@ -7,22 +7,35 @@ import JavascriptLogo from '../../assets/images/JavascriptLogo.png';
 import HTMLLogo from '../../assets/images/HTMLLogo.jpeg';
 import ReactLogo from '../../assets/images/ReactLogo.png';
 import AngularLogo from '../../assets/images/AngularLogo.png';
+import LanguageTablet from '../../assets/images/LanguageTablets.jpg';
+import Accounting from '../../assets/images/accounting.png';
+import BabyTraders from '../../assets/images/BabyTraders.jpg';
+import MenuBurger from '../../assets/images/MenuBurger.png';
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
         <div className="banner">
-          <div className="logo">
-            <img src={Tumnus} alt="Tumnus Grins" /> 
+          <div className="top-bar">
+            <img className="logo" src={Tumnus} alt="Tumnus Grins" />
+            <img className="menu-burger" src={MenuBurger} alt="Menu Icon" />
           </div>
           <div className="banner-text">
-            <span className="header-text">Looking for a skilled, fast, flexible web developer?</span>
+            <span className="header-text">Looking for a skilled, fast, flexible React developer?</span>
+            {/* Add animated stars: http://bestanimations.com/Signs&Shapes/Stars/gold-star-animation9.gif#.W0NQdmO9XhI.link */}
             <span className="sub-header-text">Good news: you've found her.</span>
+            {/* Add animated stars: http://bestanimations.com/Signs&Shapes/Stars/gold-star-animation9.gif#.W0NQdmO9XhI.link */}
           </div>
         </div>
         {/* Intro */}
-        <span className="intro">I'm Finn, and I'm the one you're looking for.</span>
+        <div className="intro">
+          <span>I'm Finn.</span>
+          <span>I'm a linguist and an entrepreneur. </span>
+          <span className="stars">* * * * * * * * *</span>
+          <span>I design sleek web apps with efficient, eloquent code,</span>
+          <span>and I'm fun to work with while I do it.</span>
+        </div>
         {/* PROJECTS SECTION */}
         <div className="projects">
           <div className="projects-banner">
@@ -36,24 +49,24 @@ class Home extends Component {
             {/* PROJECT */}
             <a className="individual-project" href="">
               <img src={Unicorn} alt="Unicorn Game" />
-              <span className="project-name">A children's game about raising a baby unicorn</span>
+              <span className="project-name">Raise your own baby unicorn</span>
             </a>
             {/* PROJECT */}
             <a className="individual-project" href="">
-              <img src={Unicorn} alt="Unicorn Game" />
-              <span className="project-name">A children's game about raising a baby unicorn</span>
+              <img src={LanguageTablet} alt="Language tablet app" />
+              <span className="project-name">Save languages with assistive technology</span>
             </a>
           </div>
           <div className="projects-row">
             {/* PROJECT */}
             <a className="individual-project" href="">
-              <img src={Unicorn} alt="Unicorn Game" />
-              <span className="project-name">A children's game about raising a baby unicorn</span>
+              <img src={BabyTraders} alt="Babysitting group" />
+              <span className="project-name">Get free childcare with a BabyTrading co-op</span>
             </a>
             {/* PROJECT */}
             <a className="individual-project" href="">
-              <img src={Unicorn} alt="Unicorn Game" />
-              <span className="project-name">A children's game about raising a baby unicorn</span>
+              <img src={Accounting} alt="Business charts" />
+              <span className="project-name">Forecast business expenses with variable inputs</span>
             </a>
           </div>
         </div>
