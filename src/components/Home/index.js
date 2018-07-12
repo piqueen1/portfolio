@@ -9,36 +9,33 @@ import ReactLogo from '../../assets/images/ReactLogo.png';
 import LanguageTablet from '../../assets/images/LanguageTablets.jpg';
 import Accounting from '../../assets/images/accounting.png';
 import BabyTraders from '../../assets/images/BabyTraders.jpg';
+import ReactText from '../../assets/images/ReactText.png';
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
         <div className="banner">
-          <div className="top-bar">
-            <img className="logo" src={Tumnus} alt="Tumnus Grins" />
-          </div>
           <div className="banner-text">
-            <span className="header-text">Looking for a skilled, fast, flexible React developer?</span>
-            <span className="sub-header-text">Good news: you've found her.</span>
+            <span className="header-text">Need a fast, flexible <img className="react-text" src={ReactText} alt="React symbol with text" /> developer?</span>
+            <span className="sub-header-text">Good news: <span className="found">you've found her.</span></span>
           </div>
         </div>
         {/* Intro */}
         <div className="intro">
-          <span>I'm Finn.</span>
-          <span>I'm a developer, a linguist and an entrepreneur. </span>
-          <span className="stars">* * * * * * * * *</span>
-          <span>I design sleek web apps</span>
-          <span>and I'm fun to work with while I do it.</span>
+          <span>I'm Finn</span>
+          <span className="stars">* * * * * * * * *</span> {/*Make this a calligraphy underline*/}
+          <span>Developer</span>
+          <span>Linguist </span>
+          <span>Entrepreneur</span>
+          <span className="stars">* * * * * * * * *</span> {/*Make this a calligraphy underline*/}
+          <span>I design sleek web applications with React and Redux</span>
         </div>
         {/* PROJECTS SECTION */}
         <div className="projects">
           <div className="projects-banner">
-            <div className="projects-header-text">
-              <span className="projects-title">Projects</span>
-              <span className="projects-subtitle">These are really relevant, elegant projects that display my competence and creativity.</span>
-            </div>
-            <button>See all</button>
+            <span className="projects-title">Main Projects</span>
+            {/* Do I want this? <span className="projects-subtitle">These are really relevant, elegant projects that display my competence and creativity.</span>*/}
           </div>
           <div className="projects-row">
             {/* PROJECT */}
@@ -100,10 +97,13 @@ class Home extends Component {
         </div>
         {/* FOOTER SECTION */}
         <div className="footer">
-          <span className="byline">Copyright 2018 </span>
-          <span className="my-name">Finn Thye</span>
-          <span classname="byline">All Rights Reserved.</span>
-          <img src="" alt="" />
+          <img className="footer-logo" src={Tumnus} alt="Tumnus Grins" />
+          <div className="copyright">
+            <span className="byline">Copyright 2018 </span>
+            <span className="my-name">Finn Thye</span>
+            <span className="byline">All Rights Reserved.</span>
+          </div>
+          <img className="footer-logo" src={Tumnus} alt="Tumnus Grins" />
         </div>
       </div>
     );
